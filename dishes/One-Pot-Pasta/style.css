@@ -1,0 +1,39 @@
+* {
+    background-color: bisque;
+}
+
+li {
+    width: auto;
+}
+
+#title {
+    text-align: center;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    margin: 20px;
+}
+
+.flex-container p{
+    font-size: large;
+    font-weight: 700;
+}
+
+.flex-container .picture {
+    flex: 1 1 30%;
+}
+
+.flex-container .Ingredients {
+    flex: 1 1 35%;
+    border: 1px solid blueviolet;
+    margin: 10px;
+}
+
+
+.flex-container .Directions {
+    flex: 1 1 35%;
+    border: 1px solid blueviolet;
+    margin: 10px;
+}
